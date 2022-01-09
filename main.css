@@ -44,7 +44,18 @@ body {
     padding-right: 4%;
 }
 
+#split-containers {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 #content-left {
+    margin-right: 50%;
+    width: 40%
+}
+
+#content-right {
+    margin-left: 50%;
     width: 40%;
 }
 
@@ -89,6 +100,9 @@ body {
         padding-left: 0%
     }
     #content-left {
+        width: 100%;
+    }
+    #content-right {
         width: 100%;
     }
 }
