@@ -30,10 +30,9 @@
     <meta name="twitter:image" content="/assets/imgs/logo.png" />
 
     <link rel="apple-touch-icon" sizes="144x144" href="/assets/imgs/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/imgs/favicon-16x16.png" />
+    <link rel="icon" href="/assets/imgs/favicon.ico" />
     <link rel="manifest" href="/assets/imgs/site.webmanifest" />
-    <link rel="mask-icon" href="/assets/imgs/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="mask-icon" href="/assets/imgs/safari-pinned-tab.svg" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
@@ -41,46 +40,49 @@
 </head>
 
 <body>
-    <div id="header">
+    <div class="header">
         <div>
             <h1 id="maintitle">
-                Inventive Sites<span><img id="logo" src="assets\imgs\logo.jpg"
-          /></span>
+                Inventive Sites<img src="assets\imgs\logo.jpg" class="logo"></span>
             </h1>
             <h2 id="subtitle">Inventive Sites For Inventive Minds</h2>
+
+
         </div>
     </div>
+
+
     <div class="split-containers">
-        <div class="container" id="content-left">
-            <p id="content-title">About the Team:</p>
-            <p id="content-info">
+        <div class="split-child">
+            <p class="content-title">About the Team:</p>
+            <p class="content-info">
                 The team at Inventive Sites consists of web design professionals who strive to create web platforms that have fluid functionality as well as user friendly layouts
             </p>
         </div>
 
-        <div class="container" id="content-right">
-            <p id="content-title">Our Works</p>
-            <p id="content-info">
-                Click to view sites we've been a part of!
+        <div class="split-child">
+            <p class="content-title">Our Works</p>
+            <p class="content-info">
+                Click to view sites we're a part of!
             </p>
             <div class="slideshow-container">
                 <div class="mySlides fade">
                     <a href="https://www.thejuniorpunks.com" target="_blank">
-                        <img src="assets\imgs\slider1.png" class="slider-image" />
+                        <img src="assets\imgs\slider1.png" class="slider-image">
                     </a>
                     <div class="text">"The Junior Punks"</div>
                 </div>
 
                 <div class="mySlides fade">
                     <a href="https://solanafellas.com" target="_blank">
-                        <img src="assets\imgs\slider2.jpg" class="slider-image" />
+                        <img src="assets\imgs\slider2.jpg" class="slider-image">
                     </a>
                     <div class="text">"The Solana Fellas"</div>
                 </div>
 
                 <div class="mySlides fade">
                     <a href="https://ragerssna.com" target="_blank">
-                        <img src="assets\imgs\slider3.png" class="slider-image" />
+                        <img src="assets\imgs\slider3.png" class="slider-image">
                     </a>
                     <div class="text">"Ragers Smash-n-Axe"</div>
                 </div>
@@ -120,7 +122,26 @@
         </div>
     </div>
 
-    <div class="split-containers"></div>
+    <footer>
+        <div class="footer">
+            <div class="split-containers">
+
+                <div class="split-child">
+                    <p class="content-info"><u>Other information</u></p>
+                    <p class="content-info" style="font-size: 20px;">Email: info@inventivesites.com</p>
+                    <p class="content-info" style="font-size: 20px;">Hours: Sunday-Sunday: 8:00am - 5:00pm</p>
+                </div>
+
+                <div class="split-child" style="text-align: center; padding: 2%;">
+                    <p class="content-info"><u>"Request a quote" coming soon!</u></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
 </body>
 
 </html>
