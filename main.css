@@ -44,18 +44,18 @@ body {
     padding-right: 4%;
 }
 
-#split-containers {
-    margin-left: 5%;
-    margin-right: 5%;
+.split-containers {
+    max-width: 100%;
 }
 
 #content-left {
     margin-right: 50%;
+    margin-left: 5%;
     width: 40%;
 }
 
 #content-right {
-    margin-left: 50%;
+    margin-left: 55%;
     width: 40%;
 }
 
@@ -64,6 +64,10 @@ body {
 }
 
 .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     background-color: #116466;
     margin-top: 4%;
