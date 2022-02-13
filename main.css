@@ -103,17 +103,19 @@ body {
 }
 
 .linkedin {
+    margin-left: 10%;
     position: relative;
     float: left;
-    width: 30%;
-    margin-left: 3%;
+    width: 35%;
     margin-bottom: 3%;
-    
 }
+
+
 /* Zachs linkedin */
-.zach {
+
+.pics {
     display: flex;
-    width: 100%;
+    max-width: 100%;
 }
 
 .image_overlay {
@@ -138,11 +140,7 @@ body {
     backdrop-filter: blur(5px);
 }
 
-.image_overlay-primary {
-    background: #009578;
-}
-
-.image_overlay > * {
+.image_overlay>* {
     transform: translateY(20px);
     transition: transform 0.25s;
 }
@@ -151,7 +149,7 @@ body {
     opacity: 1;
 }
 
-.image_overlay:hover > * {
+.image_overlay:hover>* {
     transform: translateY(0);
 }
 
@@ -164,203 +162,6 @@ body {
     font-size: 1.25em;
     margin-top: 0.25em;
 }
-/* hunters linkedin */
-.linkedin1 {
-    position: relative;
-    float: left;
-    width: 30%;
-    margin-left: 3%;
-    margin-bottom: 3%;
-    
-}
-
-.hunter {
-    display: flex;
-    width: 100%;
-
-}
-
-.image_overlay1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
-    font-family: 'Quicksand', sans-serif;
-    display: flex;
-    display: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
-
-.image_overlay1-blur {
-    backdrop-filter: blur(5px);
-}
-
-.image_overlay-primary1 {
-    background: #009578;
-}
-
-.image_overlay1 > * {
-    transform: translateY(20px);
-    transition: transform 0.25s;
-}
-
-.image_overlay1:hover {
-    opacity: 1;
-}
-
-.image_overlay1:hover > * {
-    transform: translateY(0);
-}
-
-.hunter_title {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.image_description {
-    font-size: 1.25em;
-    margin-top: 0.25em;
-}
-/* noahs linkin */
-.linkedin2 {
-    position: relative;
-    float: left;
-    width: 30%;
-    margin-left: 3%;
-    margin-bottom: 3%;
-    
-}
-
-.noah {
-    display: flex;
-    width: 100%;
-
-}
-
-.image_overlay2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
-    font-family: 'Quicksand', sans-serif;
-    display: flex;
-    display: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
-
-.image_overlay2-blur {
-    backdrop-filter: blur(5px);
-}
-
-.image_overlay-primary2 {
-    background: #009578;
-}
-
-.image_overlay2 > * {
-    transform: translateY(20px);
-    transition: transform 0.25s;
-}
-
-.image_overlay2:hover {
-    opacity: 1;
-}
-
-.image_overlay2:hover > * {
-    transform: translateY(0);
-}
-
-.noah_title {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.image_description {
-    font-size: 1.25em;
-    margin-top: 0.25em;
-}
-/* Spencers linkedin */
-.linkedin3 {
-    position: relative;
-    float: left;
-    width: 30%;
-    margin-left: 3%;
-    margin-bottom: 3%;
-    
-}
-
-.spencer {
-    display: flex;
-    width: 100%;
-
-}
-
-.image_overlay3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    color: #ffffff;
-    font-family: 'Quicksand', sans-serif;
-    display: flex;
-    display: center;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
-
-.image_overlay3-blur {
-    backdrop-filter: blur(5px);
-}
-
-.image_overlay-primary3 {
-    background: #009578;
-}
-
-.image_overlay3 > * {
-    transform: translateY(20px);
-    transition: transform 0.25s;
-}
-
-.image_overlay3:hover {
-    opacity: 1;
-}
-
-.image_overlay3:hover > * {
-    transform: translateY(0);
-}
-
-.spencer_title {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.image_description {
-    font-size: 1.25em;
-    margin-top: 0.25em;
-}
-
-
-
-
-
 
 .container-mobile {
     display: none;
@@ -422,6 +223,10 @@ body {
     margin-left: 25%;
     width: 90%;
     max-width: 50%;
+}
+
+a {
+    text-decoration: none;
 }
 
 @media (max-width: 600px) {
