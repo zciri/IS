@@ -91,15 +91,21 @@ body {
     padding-bottom: 4%;
 }
 
-.split-containers {
-    padding-right: 12.5vh;
-    padding-left: 55.5vh;
-    padding: 40px;
+#split-containers {
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: left;
+    position: relative;
+    padding: 2em 0;
+    margin: auto;
+    max-width: 30%;
 }
 
 .split-child {
-    max-width: 65%;
     background-color: rgb(57, 139, 135, .6);
+    display: inline-block;
+    border-radius: 5px;
+    text-align: left;
 }
 
 .split-child:first-child {
@@ -268,21 +274,22 @@ a {
         margin-right: 1.5vh;
         max-width: 100%;
     }
-    .split-containers {
-        padding: 0%;
-        margin: 0%;
-        margin-left: 0%;
-        width: 100%;
+    #split-containers {
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        position: relative;
+        padding: 2em 0;
+        margin-top: 2vh;
+        max-width: 100%;
     }
     .split-child {
-        padding: 0%;
-        margin: 0%;
-        padding: 0%;
-    }
-    .split-child:first-child {
-        padding: 0%;
-        padding: 0%;
-        margin: 0%;
+        margin: 0;
+        background-color: rgb(57, 139, 135, .6);
+        display: inline-block;
+        max-width: 95%;
+        border-radius: 5px;
+        text-align: left;
     }
     .footer {
         display: none;
@@ -290,9 +297,19 @@ a {
     #subtitle {
         text-align: center;
         padding-right: 0;
+        padding-bottom: 3%;
     }
     .pics {
-        padding-left: 2.5vh;
+        max-width: 100%;
+    }
+    .image_overlay {
+        max-width: 100%;
+    }
+    .header {
+        padding: 0%;
+    }
+    #banner {
+        padding: 4%;
     }
 }
 
