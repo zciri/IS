@@ -50,6 +50,12 @@ body {
     font-size: 1.5em;
 }
 
+#subtitle {
+    padding-right: 11.5%;
+    text-align: center;
+    font-size: 25px;
+}
+
 .logo {
     margin-left: 5%;
     height: 150px;
@@ -86,27 +92,24 @@ body {
 }
 
 .split-containers {
-    margin-left: 4%;
+    padding-right: 12.5vh;
+    padding-left: 55.5vh;
     padding: 40px;
-    display: flex;
 }
 
 .split-child {
-    max-width: 45%;
-    flex: 1;
+    max-width: 65%;
     background-color: rgb(57, 139, 135, .6);
 }
 
 .split-child:first-child {
-    margin-right: 100px;
     background-color: rgb(57, 139, 135, .6);
 }
 
 .linkedin {
-    margin-left: 10%;
     position: relative;
     float: left;
-    width: 35%;
+    max-width: 100%;
     margin-bottom: 3%;
 }
 
@@ -114,9 +117,8 @@ body {
 /* Zachs linkedin */
 
 .pics {
-    display: flex;
-    max-width: 95%;
-    padding-left: 10%;
+    display: list-item;
+    max-width: 100%;
 }
 
 .image_overlay {
@@ -238,6 +240,7 @@ a {
         color: white;
         width: 100%;
         margin-bottom: 0;
+        padding: 3%;
     }
     #logo {
         max-width: 100%;
@@ -260,22 +263,36 @@ a {
         margin-right: 0;
         max-width: 100%;
     }
-    #content-right {
-        margin-left: 0;
-        margin-right: 0;
+    #content-title {
+        margin-left: 1.5vh;
+        margin-right: 1.5vh;
         max-width: 100%;
     }
     .split-containers {
-        display: none;
+        padding: 0%;
+        margin: 0%;
+        margin-left: 0%;
+        width: 100%;
     }
     .split-child {
-        display: none;
+        padding: 0%;
+        margin: 0%;
+        padding: 0%;
     }
     .split-child:first-child {
-        display: none;
+        padding: 0%;
+        padding: 0%;
+        margin: 0%;
     }
     .footer {
         display: none;
+    }
+    #subtitle {
+        text-align: center;
+        padding-right: 0;
+    }
+    .pics {
+        padding-left: 2.5vh;
     }
 }
 
