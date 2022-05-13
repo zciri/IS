@@ -94,11 +94,11 @@ body {
 #split-containers {
     background-position: center center;
     background-repeat: no-repeat;
-    text-align: left;
+    text-align: center;
     position: relative;
     padding: 2em 0;
     margin: auto;
-    max-width: 30%;
+    max-width: 100%;
 }
 
 .split-child {
